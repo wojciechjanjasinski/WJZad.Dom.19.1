@@ -1,15 +1,12 @@
 
-import java.util.stream.Stream;
+import java.util.stream.IntStream;
 
 public class SumOfMultipleThreeAndFiveTogether {
 
     public static int generateSumOfMultipleThreeAndFive(int numberFromUser) {
-        int sum = Stream
-                .iterate(0, number-> number<numberFromUser, number -> number + 1)
+        return IntStream
+                .range(0,numberFromUser)
                 .filter(number -> number % 3 ==0 || number % 5 == 0)
-                .mapToInt(Integer::intValue).sum();
-        System.out.println(sum);
-        return sum;
+                .sum();
     }
-
 }

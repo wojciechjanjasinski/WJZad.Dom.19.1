@@ -6,47 +6,57 @@ public class TestMain {
 
     @Test
     public void shouldReturnTwentyThree() {
-        //when
-        final int GIVEN_FOR_TEST_PURPOSE = 10;
-        final int EXPECTED_VALUE = 23;
+        //given
+        final int givenForTestPurpose = 10;
+        final int expectedValue = 23;
         //then
-        assertThat(SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(GIVEN_FOR_TEST_PURPOSE))
-                .isEqualTo(EXPECTED_VALUE);
+        SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(givenForTestPurpose);
+        //when
+        assertThat(SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(givenForTestPurpose))
+                .isEqualTo(expectedValue);
     }
     @Test
     public void shouldReturnThirtyThree() {
-        //when
-        final int GIVEN_FOR_TEST_PURPOSE = 11;
-        final int EXPECTED_VALUE = 33;
+        //given
+        final int givenForTestPurpose = 11;
+        final int expectedValue = 33;
         //then
-        assertThat(SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(GIVEN_FOR_TEST_PURPOSE))
-                .isEqualTo(EXPECTED_VALUE);
+        SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(givenForTestPurpose);
+        //when
+        assertThat(SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(givenForTestPurpose))
+                .isEqualTo(expectedValue);
     }
     @Test
     public void shouldReturnThirtyThreeByGivenTwelve() {
-        //when
-        final int GIVEN_FOR_TEST_PURPOSE = 12;
-        final int EXPECTED_VALUE = 33;
+        //given
+        final int givenForTestPurpose = 12;
+        final int expectedValue = 33;
         //then
-        assertThat(SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(GIVEN_FOR_TEST_PURPOSE))
-                .isEqualTo(EXPECTED_VALUE);
+        SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(givenForTestPurpose);
+        //when
+        assertThat(SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(givenForTestPurpose))
+                .isEqualTo(expectedValue);
     }
     @Test
     public void shouldReturnFortyFive() {
-        //when
-        final int GIVEN_FOR_TEST_PURPOSE = 13;
-        final int EXPECTED_VALUE = 45;
+        //given
+        final int givenForTestPurpose = 13;
+        final int expectedValue = 45;
         //then
-        assertThat(SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(GIVEN_FOR_TEST_PURPOSE))
-                .isEqualTo(EXPECTED_VALUE);
+        SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(givenForTestPurpose);
+        //when
+        assertThat(SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(givenForTestPurpose))
+                .isEqualTo(expectedValue);
     }
     @Test
     public void shouldReturnSixty() {
-        //when
-        final int GIVEN_FOR_TEST_PURPOSE = 16;
-        final int EXPECTED_VALUE = 60;
+        //given
+        final int givenForTestPurpose = 16;
+        final int expectedValue = 60;
         //then
-        assertThat(SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(GIVEN_FOR_TEST_PURPOSE))
-                .isEqualTo(EXPECTED_VALUE);
+        SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(givenForTestPurpose);
+        //when
+        assertThat(SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(givenForTestPurpose))
+                .isEqualTo(expectedValue);
     }
 }
