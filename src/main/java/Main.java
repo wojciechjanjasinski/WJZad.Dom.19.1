@@ -2,6 +2,6 @@
 
 public class Main {
     public static void main(String[] args) {
-        SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(1000);
+        System.out.println(SumOfMultipleThreeAndFiveTogether.generateSumOfMultipleThreeAndFive(1000));
     }
 }
